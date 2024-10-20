@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply h-72 w-full overflow-hidden relative rounded-t-md shadow-lg
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
